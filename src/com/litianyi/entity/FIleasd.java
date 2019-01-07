@@ -24,7 +24,7 @@ public class FIleasd {
     public static void main(String[] args) {
         FIleasd a = new FIleasd("张三", 12);
         FIleasd a2 = new FIleasd("张三三", 12);
-        a.finsa();
+        //a.finsa();
         a2.finsa();
 
         FIleasd b = new FIleasd("李四", 14);
