@@ -27,8 +27,8 @@ public class FIleasd {
         a.finsa();
        // a2.finsa();
 
-        FIleasd b = new FIleasd("李四", 14);
-        b.finsa();
+       /* FIleasd b = new FIleasd("李四", 14);
+        b.finsa();*/
 
 
 
