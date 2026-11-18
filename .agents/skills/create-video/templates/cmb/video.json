@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "slug": "cmb",
+  "title": "138 亿年前的光，为什么今天还能看见？",
+  "template": "cmb",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 60,
+    "frames": 1800,
+    "crf": 22,
+    "preset": "veryfast",
+    "threads": 2
+  },
+  "voice": {
+    "speaker": 50,
+    "speed": 1.0,
+    "max_atempo": 1.0,
+    "allow_pause_tightening": false
+  },
+  "runtime": {},
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "title": "宇宙最古老的光",
+      "label": "THE OLDEST LIGHT",
+      "narration": "你知道吗？无论望向宇宙哪个方向，我们几乎都能探测到一种来自宇宙婴儿时期的古老辐射。"
+    },
+    {
+      "start": 8,
+      "end": 19,
+      "title": "有光，却看不透",
+      "label": "AN OPAQUE UNIVERSE",
+      "narration": "早期宇宙非常炽热，充满自由电子。光子不断被电子散射，就像光在浓雾中难以直线穿行。"
+    },
+    {
+      "start": 19,
+      "end": 31,
+      "title": "宇宙逐渐变得透明",
+      "label": "RECOMBINATION",
+      "narration": "直到大爆炸后约三十八万年，宇宙冷却到约三千开尔文。电子与原子核结合，光子终于能够自由传播。"
+    },
+    {
+      "start": 31,
+      "end": 43,
+      "title": "膨胀，让光的波长变长",
+      "label": "COSMOLOGICAL REDSHIFT",
+      "narration": "此后，宇宙不断膨胀，光的波长也被拉长。曾经炽热的辐射，如今冷却成只有二点七二五开尔文的微波背景。"
+    },
+    {
+      "start": 43,
+      "end": 54,
+      "title": "微小起伏，留下结构的线索",
+      "label": "SEEDS OF STRUCTURE",
+      "narration": "更惊人的是，背景辐射中十万分之一量级的温度起伏，记录了早期宇宙的扰动，也为后来星系的形成留下了线索。"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "title": "宇宙的婴儿照片",
+      "label": "THE LAST SCATTERING",
+      "narration": "这就是宇宙微波背景辐射，一张来自宇宙婴儿时期的珍贵照片。"
+    }
+  ],
+  "page": {
+    "description": "60 秒中文科普纪录片：从光子散射、复合与退耦，到宇宙学红移与最后散射面。",
+    "cards": [
+      {
+        "label": "科学机制",
+        "title": "有光，却不透明",
+        "text": "早期高温等离子体含有大量自由电子。汤姆孙散射反复改变光子的传播方向，让它们难以长距离直行。"
+      },
+      {
+        "label": "科学机制",
+        "title": "宇宙约 38 万岁",
+        "text": "冷却到约 3000 K 时，电子与原子核逐渐形成中性原子。自由电子减少，复合与光子退耦经历一段时间。"
+      },
+      {
+        "label": "科学机制",
+        "title": "光波被空间拉长",
+        "text": "尺度因子增长约 1100 倍，背景辐射黑体温度降至约 2.725 K。约十万分之一的温度起伏包含早期扰动的信息。"
+      }
+    ],
+    "source_download": false,
+    "visual_note": "科学示意与实测素材必须按片内标注区分；详细适用边界见科学说明。"
+  },
+  "science": {
+    "summary": "# 宇宙微波背景辐射：科学依据与简化说明\n\n1. 早期宇宙是充满光子的高温等离子体；自由电子导致光子频繁发生汤姆孙散射。画面中光子持续运动、改变方向，不被永久吸收，也不是空旷空间中的火球爆炸。\n2. 约 38 万年、约 3000 K 是氢复合和光子退耦时代的近似。氦有不同的复合历史，较早形成中性态；画面只详细绘制氢的结合过程。圆环仅表示中性原子形成，不是经典电子轨道。\n3. 复合是电子与原子核结合；退耦是散射率相对膨胀率降低，使光子自由传播。两者相关但不完全同义。场景 3 用错开的结合时刻和逐步加长的传播路径表达过程的有限宽度。\n4. λ ∝ a(t)、E = hc/λ、T ∝ 1/a(t)。3000/2.725 ≈ 1101，取约 1100 倍。温度指背景辐射的黑体温度。不是摩擦减速，局部真空光速不变。波形采用随尺度因子改变的波长、相位积分，屏幕位置含膨胀平流；波长倍率压缩到可看清的范围，非真实长度标尺。\n5. 平均温度约 2.725 K，扣除主要前景与偶极等后，典型温度各向异性量级约 ΔT/T ~ 10⁻⁵。真实天空还含不同角尺度、多种物理效应和污染，不能把所有起伏简单等同于密度。\n6. 本片全天图是固定种子的解析球面角模式叠加示意，并无真实 Planck 像素、功率谱或测量数据。片内与网页明确标注“示意，非观测数据”；暖冷伪彩色只用于解释温度差异。\n7. 场景 5 先退去温度示意图，再以独立节点网络表示漫长的引力结构增长。不存在红色斑点变恒星、蓝色斑点变空洞的一一映射；网络也不是 N 体模拟或真实星系目录。\n8. 最后散射面由我们从各方向看到的遥远区域构成，随观察者定义，并非宇宙实体边界。来自不同区域的光子一直在路上，所以今天仍能接收。画面末尾多条视线指向观测者，不表现膨胀中心。\n9. 标题“138 亿年前”保留用户指定文字，是宇宙年龄量级的通俗近似。退耦光来自宇宙约 38 万岁时；不是大爆炸 t=0 发出的光。宇宙最早可直接电磁观测的照片不等于宇宙中所有光子的共同出生时刻。\n\n## 科学参考\n\n- NASA / WMAP，宇宙微波背景与早期宇宙：https://map.gsfc.nasa.gov/universe/bb_tests_cmb.html\n- ESA / Planck，CMB 与宇宙学结果：https://www.esa.int/Science_Exploration/Space_Science/Planck\n- Fixsen (2009), *The Temperature of the Cosmic Microwave Background*, ApJ 707, 916：https://doi.org/10.1088/0004-637X/707/2/916（2.72548 ± 0.00057 K）\n- Planck Collaboration VI (2020), *Planck 2018 results. VI. Cosmological parameters*：https://doi.org/10.1051/0004-6361/201833910\n\n这些是可供读者复核的科学参考，不是本次下载的观测素材。当前环境未能直接访问 ESA 素材站，故未使用其观测图片。\n",
+    "simplifications": [],
+    "references": [],
+    "asset_credits": [
+      "# 素材与许可\n\n- 全天温度图：本项目原创解析球面模式可视化，固定种子，明确标注为示意。没有使用 NASA、ESA 或 Planck 观测图；不宣称这是实际测量或统计拟合。\n- 星空、星系、等离子体、散射路径、原子、网格、波形、宇宙网络：本项目用 Skia 原生矢量图形绘制，无外部图片或视频，无实测空间数据。\n- 字体：系统 Noto Sans CJK Regular/Bold，Google/Adobe Noto CJK，SIL Open Font License 1.1。https://github.com/notofonts/noto-cjk （下载包不重新分发系统字体，运行时需安装 fonts-noto-cjk）。\n- 中文旁白：本地 sherpa-onnx + Kokoro int8 multilingual v1.0，speaker ID 49，AI 合成男声，不模仿特定真人。模型源：https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-int8-multi-lang-v1_0.tar.bz2 。模型 Apache-2.0，许可附 assets/KOKORO-LICENSE.txt；模型权重不随源代码分发。推理依赖 sherpa-onnx：https://github.com/k2-fsa/sherpa-onnx ，Apache-2.0。\n- 背景音乐：项目原创确定性正弦合成氛围音乐，无第三方采样或录音，旁白期间自动降低音量。\n- 引擎：复用个人笔记既有 Skia → RGBA 管道 → FFmpeg 架构；generate_audio.py 基于该站既有脉冲星制作源码修改，画面为本任务新实现。\n- 未使用在线语音服务：Edge TTS 请求受环境网络策略限制后改用本地推理。\n"
+    ],
+    "limitations": []
+  }
+}

@@ -1,0 +1,5 @@
+numpy==2.5.4
+pillow==13.0.0
+skia-python==144.1
+sherpa_onnx==2.0.1
+soundfile==0.14.0

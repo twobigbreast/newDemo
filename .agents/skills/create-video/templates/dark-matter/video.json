@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "slug": "dark-matter",
+  "title": "暗物质：看不见的宇宙骨架",
+  "template": "dark-matter",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 60,
+    "frames": 1800,
+    "crf": 22,
+    "preset": "veryfast",
+    "threads": 2
+  },
+  "voice": {
+    "speaker": 50,
+    "speed": 1.0,
+    "max_atempo": 1.0,
+    "allow_pause_tightening": false
+  },
+  "runtime": {},
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "title": "暗物质：看不见的宇宙骨架",
+      "label": "THE INVISIBLE FRAMEWORK",
+      "narration": "宇宙中有一种神秘物质，我们从未直接看见它，却发现大量天体的运动似乎离不开它。"
+    },
+    {
+      "start": 8,
+      "end": 23,
+      "title": "星系旋转，暴露隐藏的质量",
+      "label": "GALAXY ROTATION",
+      "narration": "按可见物质的分布，许多星系外围的恒星应该转得更慢。但观测发现，它们往往仍保持较高速度，仿佛还有大量看不见的质量。"
+    },
+    {
+      "start": 23,
+      "end": 37,
+      "title": "引力透镜：质量与热气体分离",
+      "label": "THE BULLET CLUSTER",
+      "narration": "更有力的证据来自碰撞的星系团。高温气体被阻滞，而引力透镜测出的主要质量，却与气体分离。"
+    },
+    {
+      "start": 37,
+      "end": 49,
+      "title": "引力增长，织出宇宙网",
+      "label": "GROWING STRUCTURE",
+      "narration": "在宇宙演化中，暗物质的引力还帮助微小的密度扰动不断增长，为星系和宇宙网的形成提供基础。"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "title": "引力证据很强，身份仍然未知",
+      "label": "AN OPEN QUESTION",
+      "narration": "但它究竟是什么？未知粒子，还是引力理论仍有遗漏？科学家至今仍在寻找答案。"
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "title": "看不见，不代表没有影响。",
+      "label": "THE SEARCH CONTINUES",
+      "narration": "暗物质的身份，仍是现代物理学最大的谜题之一。"
+    }
+  ],
+  "page": {
+    "description": "60 秒中文科普纪录片：星系旋转曲线、子弹星系团与引力结构增长，为什么支持暗物质？",
+    "cards": [
+      {
+        "label": "科学机制",
+        "title": "外围恒星，为何仍转得很快？",
+        "text": "扩展普通物质模型的速度在外围下降，而许多真实星系呈现较平坦的趋势。加入扩展暗物质晕，模型可解释额外引力。本片曲线是教学模型，不是某座星系的实测数据。"
+      },
+      {
+        "label": "科学机制",
+        "title": "主要质量峰，与热气体分离",
+        "text": "碰撞中气体减速，多数恒星则穿行。引力透镜重建的主要质量峰与气体峰存在偏移。光学星系、X 射线气体与透镜重建量是三种不同的信息。"
+      },
+      {
+        "label": "科学机制",
+        "title": "为宇宙网提供引力基础",
+        "text": "在标准模型中，暗物质帮助早期密度扰动增长。普通物质的冷却、气体动力学及恒星形成同样重要；宇宙网不是暗物质发光云的照片。"
+      }
+    ],
+    "source_download": false,
+    "visual_note": "科学示意与实测素材必须按片内标注区分；详细适用边界见科学说明。"
+  },
+  "science": {
+    "summary": "# 暗物质：科学依据与模型说明\n\n## 已知、未知与模型依赖\n\n暗物质具有强有力的天文和宇宙学引力证据，微观构成尚未确认。约 5%/27%/68% 是标准 ΛCDM 模型下，今天普通物质、暗物质、暗能量占总质能密度的近似比例，不是三种“物质”各占的比例。暗物质和暗能量不同。轴子和 WIMP 是候选，不是已发现的组成粒子；目前不存在被普遍接受的暗物质粒子直接探测结果。修正引力仍是研究方向，片中不宣称所有问题已经解决。\n\n## 旋转曲线：可复核的确定性模型\n\nG = 4.30091×10^-6 kpc (km/s)^2 / M_sun。\n\n普通物质采用扩展 Plummer 球模型：M_b(r) = M_b r^3 / (r^2+b^2)^(3/2)，M_b=5.5×10^10 M_sun，b=2.8 kpc。v_b(r)=√[G M_b(r)/r]。这是球对称教学近似，不是把盘状星系全部质量放到中心点，也不是指数盘引力势的精确解。真实星系盘应计算实际引力势。\n\n暗物质采用伪等温球晕：ρ(r)=ρ0/[1+(r/r_c)^2]，r_c=3 kpc，渐近速度 v_inf=200 km/s。其速度平方为 v_h²=v_inf²[1-arctan(x)/x]，x=r/r_c。合成模型 v_total=√(v_b²+v_h²)。仅在有限示意半径内使用，非无限外延、无限总质量的真实晕模型。\n\n白色“典型观测趋势（示意）”采用 210[1-exp(-r/2 kpc)] km/s，表达常见的上升后趋平形状，是对已知趋势的教学可视化，不是某个观测数据集、独立测量或拟合。曲线全程标注示意，不含虚构误差条。橙线和青线来自上述质量分布。轨道星点角速度统一取 ω∝v_total(r)/r，时间做比例压缩。旋臂纹理不作为恒星测量轨迹。\n\n## 子弹星系团\n\n片中所有图形为原创示意。没有使用实测照片、真实质量重建像素或真实天体坐标。橙红表示 X 射线对应的热气体成分，银白小椭圆表示星系，蓝色轮廓解释引力透镜重建的投影质量，而不是暗物质的直接发光图。\n\n碰撞中气体相互作用后受到阻滞，多数星系中的恒星可以穿行。重建质量峰与热气体峰存在空间偏移是重要证据。质量图由透镜观测与反演获得，并非望远镜直接拍下暗物质粒子。图形运动为概念时间序列，不是对 1E 0657-56 历史轨迹的数值重演。\n\n## 结构增长与不确定性\n\n宇宙网使用固定三维节点和边的轻量投影，不是 N 体模拟、真实暗物质照片或星系目录。暗物质引力参与初始扰动增长；普通物质冷却、气体动力学和恒星形成同样重要。蓝色引力框架到金色普通物质聚集的演示不表示暗物质单独完成星系形成。\n\n## 参考\n\n- Chandra / NASA，Bullet Cluster 图像与科学解说：https://chandra.harvard.edu/photo/2006/1e0657/ （本次已读取科学介绍；未能下载其图片，故未使用原图）。\n- Clowe et al. 2006, A Direct Empirical Proof of the Existence of Dark Matter, ApJL 648 L109：https://doi.org/10.1086/508162 。论文标题中的“直接”不是粒子直接探测。\n- Sofue & Rubin 2001, Rotation Curves of Spiral Galaxies：https://doi.org/10.1146/annurev.astro.39.1.137 。\n- Planck Collaboration VI 2020, Cosmological Parameters：https://doi.org/10.1051/0004-6361/201833910 。\n\n不将这些参考链接宣称为本次取得的实测数据文件。\n",
+    "simplifications": [],
+    "references": [],
+    "asset_credits": [
+      "# 素材来源与许可\n\n- 星系纹理、暗物质晕、旋转曲线、碰撞、质量轮廓、宇宙网：本项目原创数学绘图，明确标注为模型示意，无 AI 生成图冒充实测数据。\n- 子弹星系团：科学关系参考 Chandra 官方页面 https://chandra.harvard.edu/photo/2006/1e0657/ 。本次 JPEG 下载返回 403，故没有在视频中使用其照片；片中明确注明非真实照片/透镜反演图。\n- Chandra 许可已核对：https://chandra.harvard.edu/photo/image_use.html 。其 NASA/SAO 内容通常依 NASA 指南使用并需署名，多波段合成中第三方数据可能有单独权利；本片没有复制相关图片。\n- 中文字体：系统 Noto Sans CJK Regular，SIL Open Font License 1.1，https://github.com/notofonts/noto-cjk ，附 NOTO-LICENSE.txt。\n- 男声：本地 sherpa-onnx / Kokoro int8 multilingual v1.0，speaker 49，AI 合成，不模仿特定真人。模型来源：https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-int8-multi-lang-v1_0.tar.bz2 ，Apache-2.0，附 KOKORO-LICENSE.txt。模型权重不随工程分发。\n- 音乐：原创确定性正弦合成氛围配乐，无第三方采样；旁白期间降低背景音量。\n- 引擎与配音组件：复用本项目此前 CMB 的 CPU Skia、文字缓存和 FFmpeg 管道，绘图内容、物理模型和分镜为本任务实现。\n"
+    ],
+    "limitations": []
+  }
+}
